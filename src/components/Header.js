@@ -13,8 +13,6 @@ const Header = () => {
 
     const dispatch = useDispatch();
 
-    console.log(searchQuery);
-
     useEffect(() => {
         const timer = setTimeout(() => {
             if (searchCache[searchQuery]) {
