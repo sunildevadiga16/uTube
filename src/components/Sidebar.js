@@ -12,6 +12,7 @@ const Sidebar = () => {
     <div className='p-9 shadow-lg w-55'>
       <ul>
         <li><Link to="/">Home</Link></li>
+        <li><Link to="/demo">Demo</Link></li>
         <li>Shorts</li>
         <li>Videos</li>
         <li>Live</li>
